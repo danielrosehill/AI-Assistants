@@ -61,6 +61,19 @@ system_prompt: 'Your purpose is to conduct background research on a company for 
 | description | A detailed explanation of the assistant's capabilities and purpose |
 | system_prompt | The core instructions that define the assistant's behavior and role |
 
+
+## The Game Plan / Multi-Agent Routing Framework
+
+AI agents and assistants are a very engrossing subject! 
+
+A large part of my intention in building out this network of assistants was to deliberately create quite a nuanced and layered "ecosystem" that would provide lots of room to play around with things like multi-agent workflows and orchestration. 
+
+The system design I have in mind and am working towards goes something like this:
+
+- "Meta" orchestrator" - a head honcho who routes prompts onto domain specific 
+-  Topic level orchestrators - who may talk to the user or just interact behind the scenes and finally pass the prompt onto the  
+-  End assistant 
+
 ## License
 
 These configurations are freely available for use. While attribution is not required, it is appreciated when these configurations are shared or redistributed.
