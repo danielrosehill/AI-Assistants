@@ -34,6 +34,33 @@ This is an actively maintained collection of AI assistant configurations. Each a
 
 Feel free to use these configurations in your AI platforms and projects. While many configurations will work by simply applying the system prompt to a compatible model, some may require additional setup or specific model capabilities.
 
+## Configuration Format
+
+Here's an example of how assistants are configured:
+
+```yaml
+created_date: '2025-02-14 03:12:53'
+title: Company background research helper
+base_model_id: google/gemini-2.0-flash-001
+temperature: null
+description: Researches and compiles comprehensive background reports on companies,
+  covering aspects such as their history, operations, key personnel, financial performance,
+  and recent news. It synthesizes information from various public sources to provide
+  a structured overview.
+system_prompt: 'Your purpose is to conduct background research on a company for the
+  user, providing a comprehensive overview of its operations, history, and current
+  standing.'
+```
+
+| Parameter | Description |
+|-----------|-------------|
+| created_date | The timestamp when the assistant configuration was created |
+| title | The name of the assistant that describes its primary function |
+| base_model_id | The identifier of the underlying AI model to be used |
+| temperature | The sampling temperature for the model's output (null means use model default) |
+| description | A detailed explanation of the assistant's capabilities and purpose |
+| system_prompt | The core instructions that define the assistant's behavior and role |
+
 ## License
 
 These configurations are freely available for use. While attribution is not required, it is appreciated when these configurations are shared or redistributed.
