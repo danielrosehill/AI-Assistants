@@ -28,6 +28,8 @@ The assistants are organized into specialized categories including:
  
 ## 📚 Assistant Index
 
+Note: the index is generated programatically from the configurations in the `configs` folder based on the `YAML` frontmatter so isn't always perfectly accurate (I tend to add the descriptions in batches a while after I do the prompt writing). Click on a configuration to open it!
+
 [![View All Assistants](https://img.shields.io/badge/View_All_Assistants-Explore_The_Collection-2ea44f?style=for-the-badge&logo=github)](index.md)
 
 ## 🔄 Collection Status
